@@ -1,10 +1,10 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
 // To use reCAPTCHA, you need to sign up for an API key pair for your site.
 // link: http://www.google.com/recaptcha/admin
-$config['recaptcha_site_key'] = '6LcZ1JkUAAAAAIi6AYwXK1OQjjtIDQuZV5a0FdJo';
-$config['recaptcha_secret_key'] = '6LcZ1JkUAAAAABe4yQXwxkc1AxbiZpOrMzJhfNRD';
+$config['recaptcha_site_key'] = 'key here';
+$config['recaptcha_secret_key'] = 'key here';
 
 // reCAPTCHA supported 40+ languages listed here:
 // https://developers.google.com/recaptcha/docs/language
